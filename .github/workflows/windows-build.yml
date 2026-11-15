@@ -17,7 +17,7 @@ jobs:
   windows_msi:
     name: Windows MSI
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         platform: [x64, ARM64]
     runs-on: nscloud-windows-2022-amd64-8x16
